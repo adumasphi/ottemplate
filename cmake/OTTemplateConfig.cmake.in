@@ -4,7 +4,7 @@
 #
 #  Find OTTemplate includes and libraries
 #
-#  Copyright (C) 2005-2014 Phimeca
+#  Copyright 2005-2018 Airbus-EDF-IMACS-Phimeca
 #
 
 # Use the following variables to compile and link against OTTemplate:
@@ -37,6 +37,7 @@ set ( OTTEMPLATE_VERSION_MAJOR  "@OTTEMPLATE_VERSION_MAJOR@" )
 set ( OTTEMPLATE_VERSION_MINOR  "@OTTEMPLATE_VERSION_MINOR@" )
 set ( OTTEMPLATE_VERSION_PATCH  "@OTTEMPLATE_VERSION_PATCH@" )
 
+set (OTTEMPLATE_SWIG_INCLUDE_DIRS "@OTTEMPLATE_SWIG_INCLUDE_DIRS@")
 set (OTTEMPLATE_PYTHON@PYTHON_VERSION_MAJOR@_MODULE_PATH "@PYTHON_MODULE_PATH@")
 
 # CMAKE_CURRENT_LIST_DIR defined since 2.8.3
